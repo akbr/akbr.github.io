@@ -1,0 +1,7 @@
+name: akbr.net
+url: http://akbr.net
+assets: http://akbr.net/assets
+description: Thoughts by Aaron Rieke
+markdown: redcarpet
+pygments: true
+permalink: posts/:year-:month-:day/:title.html
