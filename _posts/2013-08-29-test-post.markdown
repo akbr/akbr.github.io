@@ -8,6 +8,8 @@ titleImage: skip.jpg
 
 Here we've got a post!!
 
+PATH: {{ page.path }}
+
 This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph.
 
 <figure class="center">
