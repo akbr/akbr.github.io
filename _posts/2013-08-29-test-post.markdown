@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "This is just a test post!"
+date:   2013-08-29 21:56:53 +0900
+snippet: "bler bler bler!"
+titleImage: skip.jpg
+---
+
+Here we've got a post!
+
+This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph.
+
+<figure class="center">
+  <img src="{{ site.assets }}/jekyll.png" class="bordered" />
+  <figcaption>What if I typed a really long comment?</figcaption>
+</figure>
+
+Here's a list of things I've been thinking:
+
+1. Do something foundational
+2. Build on it
+3. Polish up other aspects
+
+In the great words of so and so:
+
+> Blah blah blah, para 1
+
+> Blah blah blah, para 2

@@ -1,160 +1,222 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
+/* Fundementals */
+body {
+  font-family: Georgia, serif;
   margin: 0;
-  padding: 0;
+  background-color: #fdfdfd;
+  border-top: 2px solid black;
 }
 
-html, body { height: 100%; }
+.serif {
+  font-family: Georgia, serif;
+}
 
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+a:link {
+  color: #990000;
+}
+
+a:visited {
+  color: #990000;
+}
+
+a:hover {
+  background-color: #FFFF99;
+}
+
+BLOCKQUOTE { overflow: hidden; }
+UL { overflow: hidden; }
+OL { overflow: hidden; }
+
+blockquote {
+  margin: 1em 3em;
+  color: #999;
+  border-left: 2px solid #999;
+  padding-left: 1em;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 80%;
+}
+
+.footer {
+  padding: 5px;
+  opacity: 0.75;
+  border-top: 1px solid #CCC;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Micro-classes */
+
+.center {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+.right {
+  float: right;
+  text-align: right;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+.left {
+  float: left;
+  text-align: left;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+figure {
+  margin: 0em 1.5em 0em 1.5em;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+figcaption {
+  font-size: 0.75em;
+  opacity: 0.75;
+  font-style: italic;
+  margin: 0em 0.2em 0em 0.2em;
+  line-height: 1.2em;
 }
 
-.site .header a {
+.bordered {
+  border: 1px solid black;
+}
+
+.reading {
+  line-height: 25px;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
+
+/* Reading mode */
+
+
+/* Index page */
+
+.indexHeader {
+  margin-top: 150px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+.indexLogo {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -93px;
+}
+
+.subTitle {
   font-weight: bold;
-  text-decoration: none;
+  margin-bottom: 10px;
 }
 
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
+.indexContent {
+  min-width: 500px;
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-.site .header h1.title a {
-  color: #a00;
+/* >> Post listing */
+
+.postIndex {
+  margin-left: 10px;
+  float: left;
+  text-align: left;
+  width: 75%;
+  min-width: 500px;
 }
 
-.site .header h1.title a:hover {
-  color: #000;
-}
-
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
-}
-
-.site .meta {
-  color: #aaa;
-}
-
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
+.postIndex .listing {
+  margin-bottom: 25px;
+  clear: both;
   overflow: hidden;
 }
 
-.site .footer .contact {
+.postIndex .listing .date {
+  margin-right: 5px;
   float: left;
-  margin-right: 3em;
+  clear: both;
 }
 
-.site .footer .contact a {
-  color: #8085C1;
+.postIndex .content {
+  padding-left: 5px;
+  border-left: 1px dotted gray;
+  max-width: 80%;
+  float: left;
 }
 
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
+.postIndex .title {
+  font-weight: bold;
+}
+
+.postIndex .snippet {
+  margin-top: 5px;
+}
+
+/* >> Sidebar */
+
+.sidebar {
   float: right;
+  width: 175px;
+  margin-right: 20px;
 }
 
-.site .footer .rss img {
-  border: 0;
+/* ----- */
+/* Posts */
+/* ----- */
+
+.miniLogo {
+  transition: opacity 0.4s;
+  position: absolute;
+  opacity: 0.5;
+  top: 15px;
+  left: 15px;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+.miniLogo:hover {
+  transition: opacity 0.4s;
+  opacity: 1;
+  cursor: pointer;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+.cornerLinks {
+  font-size: 0.75em;
+  position: absolute;
+  top: 65px;
+  left: 20px;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+.post {
+  text-align: center;
 }
 
-.post pre code {
-  border: none;
+.post .title {
+  font-size: 3.5em;
 }
 
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+.post .meta {
+  margin: 0.35em;
 }
 
-.post pre.terminal code {
-  background-color: #333;
+.post .titleImage {
+  margin: 0.5em;
+}
+
+.post .snippet {
+  margin: 0.5em auto;
+  font-size: 1em;
+  width: 50%;
+  font-style:italic;
+}
+
+.post .text {
+  text-align: left;
+  line-height: 1.2em;
+}
+
+.commentSpacer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  opacity: 0.75;
+  border-top: 1px solid #CCC;
 }

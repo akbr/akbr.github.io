@@ -1,9 +1,51 @@
 ---
-layout: default
+layout: defaultShell
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<img class="miniLogo" src="{{ site.url }}/assets/logo_mini.png"></img>
+<div class="cornerLinks">
+  <a href="#">About</a> | <a href="#">RSS</a>
+</div>
 
 <div class="post">
-{{ content }}
+  <div class="title">
+    {{ page.title }}
+  </div>
+
+  <div class="meta smaller">
+    <a href="#">Aaron Rieke</a> | {{ page.date | date_to_string }} (<a href="#">changelog</a>)
+  </div>
+
+  {% if page.titleImage %}
+  <img class="titleImage bordered" src="{{ site.assets }}/{{ page.titleImage }}"></img>
+  {% endif %}
+
+  {% if page.snippet %}
+  <div class="snippet">
+    {{ page.snippet }}
+  </div>
+  {% endif %}
+
+  <div class="text">
+    {{ content }}
+  </div>
+
 </div>
+
+
+<!--
+  <div class="commentSpacer"></div>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'akbrnet';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+-->

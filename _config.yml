@@ -1,3 +1,7 @@
-name: Your New Jekyll Site
+name: akbr.net
+url: file:///Z:/www/_site
+assets: file:///Z:/www/_site/assets
+description: Thoughts by Aaron Rieke
 markdown: redcarpet
 pygments: true
+permalink: posts/:year-:month-:day/:title.html
