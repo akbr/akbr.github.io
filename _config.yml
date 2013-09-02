@@ -1,6 +1,6 @@
 name: akbr.net
-url: http://akbr.net
-assets: http://akbr.net/assets
+url: http://chuck.akbr.net/dev/www/_site
+assets: http://chuck.akbr.net/dev/www/_site/assets
 description: Thoughts by Aaron Rieke
 markdown: redcarpet
 pygments: true

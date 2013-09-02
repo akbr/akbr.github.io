@@ -37,7 +37,7 @@ blockquote {
   margin: 0 auto;
   margin-top: 80px;
   width: 80%;
-  max-width: 850px;
+  max-width: 45em;
 }
 
 .footer {
@@ -124,7 +124,7 @@ figcaption {
   float: left;
   text-align: left;
   width: 75%;
-  min-width: 500px;
+  max-width: 500px;
 }
 
 .postIndex .listing {
@@ -211,13 +211,16 @@ figcaption {
 }
 
 .post .text {
+  margin: 0 auto;
+  max-width: 40em;
   text-align: left;
   line-height: 1.2em;
 }
 
-.commentSpacer {
+.comments {
   margin-top: 2em;
   margin-bottom: 2em;
   opacity: 0.75;
   border-top: 1px solid #CCC;
+  padding-top: 2em;
 }
