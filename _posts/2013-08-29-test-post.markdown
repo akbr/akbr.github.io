@@ -8,7 +8,35 @@ titleImage: skip.jpg
 
 Here we've got a post!
 
-This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph. This should be a second paragraph.
+The lobbying blitz stretched from Capitol Hill, where the administration held its first classified briefing on Syria open to all lawmakers, to Cairo, where Secretary of State John Kerry reached Arab diplomats by phone in an attempt to rally international support for a firm response to the Aug. 21 chemical weapons attack in the suburbs of Damascus.
+
+Mr. Kerry appeared on five morning talk shows, announcing new evidence — that the neurotoxin sarin had been used in the attack that killed more than 1,400 people — and expressing confidence that Congress would ultimately back the president’s plan for military action.
+
+Behind closed doors on Capitol Hill, the administration presented classified intelligence to any senator or House member who wished to attend. About 80 did, but some from both parties emerged from the briefing convinced that the draft language authorizing military action would need to be tightened.
+
+The rush of activity came a day after Mr. Obama’s surprise decision to seek the authorization of Congress for a strike on the Syrian government.
+
+Ahead of an Arab League meeting in Cairo, Mr. Kerry sought to mobilize backing for American-led military action at a meeting the group held on Sunday night.
+
+A statement that was issued by the league asserted that the Syrian government was “fully responsible” for the chemical weapons attack and asked the United Nations and the international community “to take the necessary measures against those who committed this crime.”
+
+To the satisfaction of American officials, the statement did not explicitly mention the United Nations Security Council or assert that military action could be taken only with its approval. But it stopped short of a direct call for Western military action against Syria.
+
+Before the meeting got under way, the Saudi foreign minister, Prince Saud al-Faisal, urged the international community to stop the Syrian government’s “aggression” against its people.
+
+Saudi Arabia has been one of the principal supporters of the Syrian opposition, and Mr. Kerry consulted by phone on Sunday with Prince Bandar bin Sultan, Saudi Arabia’s intelligence chief and secretary general of its national security council.
+
+The Obama administration’s calculation has been that a call for tough action by the Arab diplomats would enable the White House to argue to members of Congress that it had regional backing for military action and would make up, at least politically, for the British decision on Thursday not to join the American-led attack.
+
+But Syria’s government on Sunday defiantly mocked Mr. Obama’s decision to turn to Congress, saying it was a sign of weakness. A state-run newspaper, Al Thawra, called the action “the start of the historic American retreat” and said Mr. Obama had put off an attack because of a “sense of implicit defeat and the disappearance of his allies.”
+
+Syria’s deputy foreign minister, Faisal Mekdad, told reporters in Damascus, “It is clear there was a sense of hesitation and disappointment in what was said by President Barack Obama yesterday. And it is also clear there was a sense of confusion, as well.”
+
+In some measure, part of the challenge that the Obama administration faces in trying to rally support at home for a punitive strike in Syria is the result of the deep ambivalence it has expressed about becoming involved in the conflict.
+
+Part of the White House strategy for securing Congressional support now is to emphasize not only what Syria did, but also how a failure to act against Syria might embolden enemies of Israel like Iran and Hezbollah.
+
+Mr. Kerry, in his television appearances, said that if Congress passed a measure authorizing the use of force, it would send a firm message to Iran that the United States would not tolerate the fielding of a nuclear device, and thus safeguard Israel’s security.
 
 <figure class="center">
   <img src="{{ site.assets }}/jekyll.png" class="bordered" />
