@@ -37,6 +37,7 @@ blockquote {
   margin: 0 auto;
   margin-top: 80px;
   width: 80%;
+  max-width: 1000px;
 }
 
 .footer {
